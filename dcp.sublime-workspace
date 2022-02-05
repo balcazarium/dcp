@@ -1,0 +1,930 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"muebl",
+				"muebles.html"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"add",
+				".addClass"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bold",
+				"font-weight-bold "
+			],
+			[
+				"space",
+				"space-evenly"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"inli",
+				"inline-flex"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-flex"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"overflo",
+				"overflow-x"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"med",
+				"media smartphone"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"inlin",
+				"inline-flex"
+			],
+			[
+				"lne",
+				"line-height"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"btn-lg",
+				"btn-lg-gaia"
+			],
+			[
+				"btnGa",
+				"btnGaia-icon"
+			],
+			[
+				"text-",
+				"text-center"
+			],
+			[
+				"promos",
+				"promos-top-section"
+			],
+			[
+				"line",
+				"line-through"
+			],
+			[
+				"tex-dec",
+				"text-decoration"
+			],
+			[
+				"text-de",
+				"text-decoration-color"
+			],
+			[
+				"scroll",
+				"scrollLink"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"btn",
+				"btnGaia"
+			],
+			[
+				"slick",
+				"slick.min.js"
+			],
+			[
+				"vend",
+				"vendors/"
+			],
+			[
+				"justi",
+				"justify-content-around"
+			],
+			[
+				"align-t",
+				"align-items-center"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"justify-content-",
+				"justify-content-around "
+			],
+			[
+				"justif",
+				"justify-content-around "
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"font-e",
+				"font-weight"
+			],
+			[
+				"just",
+				"justify-between "
+			],
+			[
+				"align-item",
+				"align-items-center "
+			],
+			[
+				"float",
+				"float-right "
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"media",
+				"media smartphone"
+			],
+			[
+				"btn-as",
+				"btn-as-link-primary"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"baclg",
+				"background-color"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"hydra",
+				"hydration"
+			],
+			[
+				"tex-tr",
+				"text-transform"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"asset",
+				"assets/"
+			],
+			[
+				"align-items",
+				"align-items-center "
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"mt",
+				"mt-5 "
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"animation",
+				"animation-delay"
+			],
+			[
+				"animatio",
+				"animation-fill-mode"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"view",
+				"view-more-cta"
+			],
+			[
+				"ease-in",
+				"ease-in-out"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"gaia",
+				"gaia-local/"
+			],
+			[
+				"wi",
+				"wysiwyg/"
+			],
+			[
+				"hero",
+				"hero_slick_1.jpg"
+			],
+			[
+				"logo",
+				"gaia-local-logo-white.png"
+			],
+			[
+				"as",
+				"assets/"
+			],
+			[
+				"backr",
+				"background"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"row-re",
+				"flex-lg-row-reverse "
+			],
+			[
+				"btn-",
+				"btn-black"
+			],
+			[
+				"flex-",
+				"flex-wrap"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"mb-",
+				"mb-2 \tBootstrap 4 Class"
+			],
+			[
+				"flex",
+				"flex-wrap \tBootstrap 4 Class"
+			],
+			[
+				"align-it",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"eac",
+				"each\t$.each()"
+			],
+			[
+				"tex",
+				"text-align\tabc"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"justti",
+				"justify-content\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"align",
+				"align-items\tabc"
+			],
+			[
+				"displ",
+				"display\tabc"
+			],
+			[
+				"small",
+				"small \tBootstrap 4 Class"
+			],
+			[
+				"opa",
+				"opacity-90 \tTailwind Class"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"mt-",
+				"mt-5 \tBootstrap 4 Class"
+			],
+			[
+				"mb",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"TEXT-",
+				"text-align\tproperty"
+			],
+			[
+				"rel",
+				"relative\tabc"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"top-c",
+				"top-countdown-hotsale\t(hotsale-2021.html)"
+			],
+			[
+				"flex-md-row",
+				"flex-md-row-reverse \tBootstrap 4 Class"
+			],
+			[
+				"open",
+				"open-newsletter\t(gaia-mexem.html)"
+			],
+			[
+				"pt-sm",
+				"pt-sm-5 \tBootstrap 4 Class"
+			],
+			[
+				"p-",
+				"p-5 \tBootstrap 4 Class"
+			],
+			[
+				"flex-md-ro",
+				"flex-md-row-reverse \tBootstrap 4 Class"
+			],
+			[
+				"geos-",
+				"geos-section2\tabc"
+			],
+			[
+				"col-sm",
+				"col-sm-12\tabc"
+			],
+			[
+				"padi",
+				"padding-top\tproperty"
+			],
+			[
+				"mag",
+				"margin-bottom\tabc"
+			],
+			[
+				"deli",
+				"delivey-status-desktop.jpg\tabc"
+			],
+			[
+				"del",
+				"delivey-status-mobile.jpg\tw:798 h:534"
+			],
+			[
+				"roun",
+				"rounded-wait-for-your-order.png\tw:227 h:199"
+			],
+			[
+				"round",
+				"rounded-cal.png\tw:199 h:200"
+			],
+			[
+				"s",
+				"schedule.png\tw:47 h:53"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"backgr",
+				"background\tabc"
+			],
+			[
+				"flex-r",
+				"flex-row \tBootstrap 4 Class"
+			],
+			[
+				"text-w",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"liste",
+				"list-style-type\tproperty"
+			],
+			[
+				"posit",
+				"position"
+			],
+			[
+				"title",
+				"title\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Libsass Build/Sass (libsass).sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS - Compressed.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"ppac",
+				"Package Control: Disable Package"
+			],
+			[
+				"sass",
+				"Sass Compile: (File) Compile"
+			],
+			[
+				"s",
+				"Sort Lines"
+			],
+			[
+				"sass\t\t",
+				"Sass Compile: (File) Compile"
+			],
+			[
+				"sass c",
+				"Sass Compile: (Project) Disable"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 276.0,
+		"history":
+		[
+			"sass --watch main.scss:output.css",
+			"sass --help",
+			"sass",
+			"sass scss/fonima.min.scss css/fonima.min.css"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/macux/MAMP/www/ufoconsulting/dcp/sitio_web"
+	],
+	"file_history":
+	[
+		"/Users/macux/Documents/magento-2-GAIA/2022/Bloques/pv-contador-24h.html",
+		"/Users/macux/Documents/magento-2-GAIA/2022/Bloques/explorar-por-normal.html",
+		"/Users/macux/Documents/magento-2-GAIA/2022/home-hero/home-hero-enero-sale-2-cols.html",
+		"/Users/macux/Documents/magento-2-GAIA/2022/home-hero/home-hero-primavera.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-navidad-2-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/2021/Campaign Header/campaign-header-slider.html",
+		"/Users/macux/Documents/magento-2-GAIA/2021/Paginas/colchones-gaia.html",
+		"/Users/macux/Documents/magento-2-GAIA/2021/Campaign Header/campaign-header-contador-mensaje-final.html",
+		"/Users/macux/Documents/magento-2-GAIA/2021/Campaign Header/top-bar-navidad-2021.html",
+		"/Users/macux/MAMP/www/ui/Magento2/gaia-local/gaia-local.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/lp_buenfin2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/2022/Bloques/carrito/metodos-de-pago-old.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-cumple-video.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-somos-ciudad-full-video.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/singles/home-hero-video-single-no-mobile.html",
+		"/Users/macux/Documents/magento-2-GAIA/Paginas/lp-promociones-gaia.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-video-half-hometime-preventa.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/lp_buenfin2021.stg.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/css/buenfin.css",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/contenido-promos-bancarias.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/contenido-promos.html",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/campaign-header-contador-mensaje-final.html",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/bloque-sale-ofertas-flash-martes-viernes.html",
+		"/Users/macux/Documents/magento-2-GAIA/menu-links/widget-diciembre-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/menu-links/widget-diciembre-2021-novedades.html",
+		"/Users/macux/Documents/magento-2-GAIA/menu-links/widget-normal.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-navidad-especial.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-cybermonday.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-navidad-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-herobf-black-friday.html",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/top-bar-campaign-cybermonday.html",
+		"/Users/macux/Desktop/user.ini",
+		"/Users/macux/Documents/magento-2-GAIA/Tiendas/tiendas-normal.html",
+		"/Users/macux/Documents/magento-2-GAIA/Tiendas/tienda_veracruz.html",
+		"/usr/local/etc/httpd/vhosts/outletui.local.conf",
+		"/usr/local/etc/httpd/httpd.conf",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/navidad-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-bf-teaser-2.html",
+		"/Users/macux/Desktop/tiendas-normal.html",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/top-bar-navidad-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-herobf-extension.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/lp-colchones.html",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/contador-regresivo-horas-pv.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/css-buenfin.css",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/home-hero-preventa.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/campaign-header-preventa.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/Tycs.html",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/promos-bancarias-modal.html",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/JScopiarcuponPV.js",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/hotsale/home-hero-countdown.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/singles/home-hero-cumple-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-doble-cumple+gaia-local.html",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/modal-promos-bf.html",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/campaign-header-varios.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/topbar-countdown-faltan.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/countdown.html",
+		"/Users/macux/Documents/magento-2-GAIA/big-campaigns/buenfin-2021/copiar-cupon-pv.html",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/less/vivia-seller.less",
+		"/Users/macux/Documents/magento-2-GAIA/Paginas/design-services.html",
+		"/Users/macux/Documents/magento-2-GAIA/Tiendas/tienda_leon.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/singles/home-hero-teaser-bf.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2020/css/stbf2020.css",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/less/buenfin.less",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2020/css/bf2020.css",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/campaign-header-countdown-cumple-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Campaign Header/campaign-header-countdown.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/lp_buenfin2020.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/css/stbf2020.css",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/css/bf2020.css",
+		"/Users/macux/MAMP/www/ui/new-gaia/bf2021/buenfin2020.html",
+		"/Users/macux/MAMP/www/ui/new-gaia/hotsale-2021/hotsale-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/sale-extra-bubble.css",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/cumple-gaia.css",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/assets/img/contact-us-header.jpeg",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/beneficios.html",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/vendors/slick.css",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/vendors/slick-theme.css",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-SALE-octubre.html",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/js/scripts.js",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/css/vivia-seller.css",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/css/styles.min.css",
+		"/Users/macux/MAMP/www/ui/vivia/static_seller_lp/css/styles.css",
+		"/Users/macux/MAMP/www/ui/sublime-projects/vivia-seller-vue.sublime-project",
+		"/Users/macux/MAMP/www/ui/vivia/vivia-seller/src/assets/scss/styles.scss",
+		"/Users/macux/MAMP/www/ui/vivia/vivia-seller/dist/css/styles.css",
+		"/Users/macux/MAMP/www/ui/vivia/vivia-seller/src/assets/less/seller_styles.less",
+		"/Users/macux/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/macux/MAMP/www/ui/vivia/vivia-seller/src/assets/css/seller_styles.css",
+		"/Users/macux/MAMP/www/ui/vivia/vivia-seller/src/assets/less-watch-compiler.config.json",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/bat/rd-mailform.config.json",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/contacts.html",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/bat/rd-mailform.php",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/ggstemp.html",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/vendors/pv/css/style-pv.css",
+		"/Users/macux/MAMP/www/ufoconsulting/noemis_beauty/vendors/pv/index.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-cumple-single.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-cumple-slide-last-ed.html",
+		"/Users/macux/Desktop/lolo.less",
+		"/Users/macux/Desktop/pikachu.scss",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/PV-copiar-cupon-campania-sofa-week.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-SALE-junio-animated.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-half-3-col-links.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-sofaweek-ago-2021.html",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/extra-burbuja-banner-PV.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-cumple-slide.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/campaigns/2021/home-hero-sale-home_office.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/home-hero-2-slides-original.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/slick-slider/home-hero-2-slides-w-requirejs.html",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/sofaweek-copiarcupon-PV.html",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/copiar-cupon-PV-new.html",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/modal-open-clos.js",
+		"/Users/macux/Documents/magento-2-GAIA/Otros/top-bar-links.html",
+		"/Applications/MAMP/htdocs/ui/Magento2/gaia-local/product-view/gaia-local-pv-block.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/referencuas/liverpool-video-banner.html",
+		"/Applications/MAMP/htdocs/ui/Magento2/assets/css/gaia-m2.css",
+		"/Applications/MAMP/htdocs/magento/public_html/skin/frontend/base/default/assets/css/main-gaia.css",
+		"/Users/macux/Documents/magento-2-GAIA/Bloques estaticos/copiar-cupon-PV-old.html",
+		"/Applications/MAMP/htdocs/ui/Magento2/gaia-local/assets/less/gaia-local.less",
+		"/Applications/MAMP/htdocs/ui/Magento2/gaia-local/gaia-local.html",
+		"/Users/macux/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/macux/Library/Application Support/Sublime Text 3/Packages/lessc/lessc.sublime-build",
+		"/Users/macux/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/macux/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/macux/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/Applications/MAMP/htdocs/ui/Magento2/gaia-local.html",
+		"/Applications/MAMP/htdocs/ui/new-gaia/somos-la-ciudad/gaia-mexem.html",
+		"/Users/macux/Documents/magento-2-GAIA/Paginas/somos-ciudad.html",
+		"/Users/macux/Documents/magento-2-GAIA/Home Hero/home-hero-homeoffice-agosto.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 138.0
+	},
+	"output.exec":
+	{
+		"height": 203.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 108.0
+	},
+	"pinned_build_system": "",
+	"project": "dcp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 321.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 574.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

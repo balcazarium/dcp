@@ -1,0 +1,243 @@
+@import 'resetcss.less';
+@import (css) url('https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=auto');
+
+
+
+@dcp-green: #8cc186;
+@dcp-orange: #ff9041;
+@dcp-ggray: #70817A;
+
+
+.font-size(@sizeValue) {
+    @remValue: @sizeValue;
+    @pxValue: (@sizeValue * 10);
+    font-size:~"@{pxValue}px";
+    font-size:~"@{remValue}rem";
+}
+
+
+
+html {
+    font-size: 62.5%;
+    font-display: auto;
+    text-rendering: auto;
+}
+
+.bg-orange {
+    background-color: @dcp-orange  !important;
+}
+
+.bg-green {
+    background-color: @dcp-green  !important;
+}
+
+.txt-green,
+.green-txt {
+    color: @dcp-green  !important;
+}
+
+.txt-orange,
+.orange-txt {
+    color: @dcp-orange  !important;
+}
+
+section {
+    .font-size(1.6);
+    font-family: 'Lato', Arial, sans-serif;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.main-content-wrapper {
+    position: relative;
+    padding-top: 140px;
+    margin-bottom: 40px;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    top: auto;
+}
+
+.btn-dcp {
+
+    display: block;
+    clear: both;
+    float: none;
+    line-height: normal;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 20px;
+    font-weight: 300;
+    .font-size(1.6);
+
+    &.btn-primary {
+        background-color: @dcp-green;
+        color: #fff;
+    }
+
+    &.btn-secondary {
+        background-color: @dcp-orange;
+        color: #fff;
+    }
+
+    &.btn-black {
+        background-color: #000;
+        color: #fff;
+    }
+
+    &.btn-lg {
+        max-width: 90%;
+    }
+
+    &.btn-md {
+        max-width: 280px;
+    }
+
+    &.btn-sm {
+        max-width: 160px;
+    }
+
+    &.btn-rounded {
+        border-radius: 50px;
+    }
+}
+
+.social-links-list {
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+
+    li {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            display: block;
+            width: 20px;
+            height: 20px;
+            overflow: hidden;
+        }
+    }
+
+}
+
+.dcp-main-site {
+
+    #mainNav {
+        font-family: 'Lato', Arial, sans-serif;
+        .font-size(1.6);
+
+        .navbarbrand {
+            display: inline-flex;
+            width: 100%;
+            max-width: 200px;
+
+            .logo-container {
+
+                display: block;
+                width: 100%;
+
+                .brand-logo {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    h1 {
+        .font-size(7.5);
+        line-height: normal;
+        font-weight: 700;
+    }
+
+    h2 {
+        .font-size(3.3);
+        line-height: normal;
+        font-weight: 700;
+
+        .font-weight-light {
+            font-weight: 300 !important;
+        }
+    }
+
+    .img-container {
+        display: block;
+        clear: both;
+        position: relative;
+    }
+
+    .video-container {
+        position: relative;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        background: #000;
+    }
+
+
+    .dcp-section {
+
+        p {
+            color: #6F8079;
+            .font-size(1.6);
+            font-weight: normal;
+            line-height: normal;
+        }
+
+        &#about-us {
+
+            h1 {
+                color: @dcp-ggray;
+            }
+
+        }
+
+        &#about-company-360 {
+            background: url('../img/papel.jpg') 0px 0px / cover #fff;
+
+            .intro-txt {
+                h2 {
+                    color: @dcp-ggray;
+                    text-transform: uppercase;
+
+                }
+
+                p {
+                    color: #6F8079;
+                    .font-size(2.4);
+                    margin-top: 8px;
+                    font-weight: lighter;
+                }
+            }
+
+            #anios15 {
+                width: 200px;
+            }
+
+
+        }
+    }
+
+
+}
