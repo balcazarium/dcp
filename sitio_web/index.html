@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>Diseños en corrugado y publicidad - Home</title>
     <!--<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />-->
     <!-- Core CSS site-->
     <link href="assets/libs/styles.min.css" rel="stylesheet" />
@@ -14,28 +14,8 @@
 </head>
 
 <body id="dcp-home" class="dcp-main-site">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
-        <div class="container px-4">
-            <a class="navbarbrand" href="/"><span class="logo-container"><img src="assets/img/logo_dcp.svg" alt="diseño publidad producción" class="img-fluid brand-logo"></span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavMenu" aria-controls="mainNavMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="mainNavMenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/nosotros.html">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/infraestructura.html">Infraestructura</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/proyectos.html">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/disenamos.html">Diseñamos tu exhibidor</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contacto.html">Contacto</a></li>
-                </ul>
-                <ul id="topbar-social-links" class="social-links-list">
-                    <li><a href="#"><img src="" alt="facebook"></a></li>
-                    <li><a href="#"><img src="" alt="linkedin"></a></li>
-                    <li><a href="#"><img src="" alt="instagram"></a></li>
-                    <li><a href="#"><img src="" alt="youtube"></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Navbar component-->
+    <main-header></main-header>
     <div class="main-content-wrapper">
         <!-- About section-->
         <section id="about-us" class="dcp-section">
@@ -82,12 +62,12 @@
                         <span class="img-container" id="anios15">
                             <img src="assets/img/home/15.webp" alt="15 años de experiencia">
                         </span>
-                        <p class="my-3">Somos una empresa experta en desarrollar materiales de exhibición para los puntos de venta más importantes como Sam´s Club, Costco, City Club, Walmart, Superama, Bodega Aurrera, Chedraui, Soriana, Home Depot, entre otros. Trabajamos todo tipo de material POP como exhibidores,   pallets, stoppers, tiras de impulso, sidekicks, stands y muchos más.  Diseñamos, producimos e implementamos tu proyecto en punto de venta.</p>
+                        <p class="my-3">Somos una empresa experta en desarrollar materiales de exhibición para los puntos de venta más importantes como Sam´s Club, Costco, City Club, Walmart, Superama, Bodega Aurrera, Chedraui, Soriana, Home Depot, entre otros. Trabajamos todo tipo de material POP como exhibidores, pallets, stoppers, tiras de impulso, sidekicks, stands y muchos más. Diseñamos, producimos e implementamos tu proyecto en punto de venta.</p>
                         <a href="#" class="btn-dcp btn-primary btn-sm btn-rounded my-4">Saber más</a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12 text-center my-5">
                         <div class="video-container scrim-invisible">
-                            <video class="video" playsinline muted autoplay loop>
+                            <video class="video" preload="none" playsinline muted autoplay loop>
                                 <source src="assets/img/home/servicio_360.m4v">
                             </video>
                         </div>
@@ -95,36 +75,50 @@
                 </div>
             </div>
         </section>
-    </div>
-    <!-- Footer-->
-    <footer class="py-5 bg-green">
-        <div class="container px-4">
-            <div class="row">
-                <div class="col-lg-2 col-md-2 col-xs-6"></div>
-                <div class="col-lg-6 col-md-6 col-xs-6">
-                    <p class="copyright m-0 text-center text-white">&copy; Copyright 2022, Todos los derechos reservados. 52966, México, Cd. López Mateos</p>
-                    <ul class="footer-nav">
-                        <li><a href="/aviso-de-privacidad.html">Aviso de privacidad</a></li>
-                        <li><a href="#">Políticas</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="footer-telephones">
-                        <a href="tel:58258339">58258339</a>
-                        <a href="tel:58258339">58258340</a>
-                        <a href="tel:58258339">58258341</a>
-                        <p>Ext. 122</p>
+        <section id="our-alliances" class="dcp-section">
+            <div class="container">
+                <div class="row flex-row align-items-center justify-content-center">
+                    <div class="slider-wrapper col-md-12" id="alliances-slider">
+                        <div id="our-alliances-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#our-alliances-carousel" data-slide-to="0" class="active"></li>
+                                <!--<li data-target="#our-alliances-carousel" data-slide-to="1"></li>
+                                <li data-target="#our-alliances-carousel" data-slide-to="2"></li>-->
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 img-fluid" src="assets/img/home/banner-tapitas.webp" alt="Tapitas Salva Vidas">
+                                </div>
+                                <!--<div class="carousel-item">
+                                    <img class="d-block w-100" src="..." alt="slide-2">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="..." alt="slide-3">
+                                </div>-->
+                            </div>
+                            <a class="carousel-control-prev" href="#our-alliances-carousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only"> < </span> </a> 
+                            <a class="carousel-control-next" href="#our-alliances-carousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only"> > </span> </a>
+                        </div>
                     </div>
-                    <ul id="footer-social-links" class="social-links-list">
-                        <li><a href="#"><img src="" alt="facebook"></a></li>
-                        <li><a href="#"><img src="" alt="linkedin"></a></li>
-                        <li><a href="#"><img src="" alt="instagram"></a></li>
-                        <li><a href="#"><img src="" alt="youtube"></a></li>
-                    </ul>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
+        <section id="intro-video-home" class="dcp-section">
+            <div class="container">
+                <div class="row flex-row align-items-center justify-content-center">
+                    <div class="video-container scrim-invisible">
+                        <video class="video" preload="none" playsinline muted autoplay loop>
+                            <source src="assets/img/home/video-inicio.m4v">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer component-->
+    <main-footer></main-footer>
     <!-- Libs core JS-->
     <script src="assets/libs/bootstrap.min.js"></script>
     <script src="assets/libs/jquery.min.js"></script>

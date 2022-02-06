@@ -136,6 +136,8 @@ footer {
 
 }
 
+
+
 .dcp-main-site {
 
     #mainNav {
@@ -145,7 +147,7 @@ footer {
         .navbarbrand {
             display: inline-flex;
             width: 100%;
-            max-width: 200px;
+            max-width: 160px;
 
             .logo-container {
 
@@ -157,6 +159,105 @@ footer {
                 }
             }
         }
+
+        .navbar-nav {
+            li {
+                .nav-link {
+                    color: @dcp-ggray;
+
+                    &:hover,
+                    &:focus {
+                        color: @dcp-orange;
+                    }
+
+
+                }
+
+                &.active-menu-item {
+
+                    .nav-link {
+                        color: @dcp-orange;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    #dcp-footer-wrapper {
+
+        font-family: 'Lato', Arial, sans-serif;
+        .font-size(1.4);
+        line-height: normal;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 4px;
+
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+                color: #f0f0f0;
+            }
+        }
+
+
+        .navbarbrand {
+            display: inline-flex;
+            width: 100%;
+            max-width: 140px;
+
+            .logo-container {
+
+                display: block;
+                width: 100%;
+
+                .brand-logo {
+                    display: block;
+                }
+            }
+        }
+
+        #col-nav-copyrights {
+            display: inline-flex;
+            align-items: normal;
+            justify-content: space-around;
+
+            .copyright {
+                flex: 0 0 50%;
+                display: inline-flex;
+                align-items: normal;
+            }
+
+            .footer-nav {
+                flex: 0 0 50%;
+                display: inline-flex;
+                align-items: normal;
+                justify-content: space-around;
+                list-style: none;
+            }
+        }
+
+        #col-contact-info {
+            display: inline-flex;
+            align-items: normal;
+            justify-content: space-around;
+
+            .footer-telephones {
+                display: inline-flex;
+                flex-wrap: wrap;
+                line-height: normal;
+                color: #fff;
+                flex: 0 0 40%;
+                justify-content: space-between;
+                align-items: flex-start;
+                align-content: normal;
+
+
+            }
+        }
+
     }
 
     h1 {
@@ -197,6 +298,8 @@ footer {
 
 
     .dcp-section {
+        margin: 20px auto;
+        padding: 10px 0px;
 
         p {
             color: #6F8079;
