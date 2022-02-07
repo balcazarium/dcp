@@ -10,8 +10,14 @@ class Header extends HTMLElement {
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active-menu-item"><a class="nav-link" id="nav-nosotros" href="index.html">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" id="nav-infraestructura" href="infraestructura.html">Infraestructura</a></li>
-                    <li class="nav-item"><a class="nav-link" id="nav-proyectos" href="proyectos.html">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" id="nav-disenamos" href="disenamos.html">Diseñamos tu exhibidor</a></li>
+                    <li class="nav-item dropdown" id="our-projects">
+                        <a class="nav-link dropdown-toggle" id="sale-rates-viva" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Proyectos</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="sale-rates-viva">
+                            <li><a class="dropdown-item" href="proyectos-carton.html">Cartón</a></li>
+                            <li><a class="dropdown-item" href="proyectos-multimaterial.html">Multimaterial</a></li>
+                            <li><a class="dropdown-item" href="proyectos-innovacion.html">Innovación</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" id="nav-contacto" href="contacto.html">Contacto</a></li>
                 </ul>
                 <ul id="topbar-social-links" class="social-links-list">
@@ -48,7 +54,7 @@ class Footer extends HTMLElement {
                 <div class="col-lg-6 col-md-6 col-xs-12" id="col-nav-copyrights">
                     <p class="copyright m-0 text-white">&copy; Copyright 2022, Todos los derechos reservados. 52966, México, Cd. López Mateos</p>
                     <ul class="footer-nav">
-                        <li><a href="/aviso-de-privacidad.html">Aviso de privacidad</a></li>
+                        <li><a href="aviso-de-privacidad.html">Aviso de privacidad</a></li>
                         <li><a href="#">Políticas</a></li>
                     </ul>
                 </div>
