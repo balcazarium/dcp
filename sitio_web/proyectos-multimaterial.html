@@ -85,28 +85,7 @@
                     </div>
                 </div>
                 <div class="container my-5">
-                    <div class="row lb-gallery-wrapper" id="lb-madera-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="row lb-gallery-wrapper" id="lb-madera-gallery"></div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
                             <h2 class="text-uppercase"><span class="orange-txt">Madera y MDF</span></h2>
@@ -118,28 +97,7 @@
                 </div>
 
                 <div class="container my-5">
-                    <div class="row lb-gallery-wrapper" id="lb-metal-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="row lb-gallery-wrapper" id="lb-metal-gallery"></div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
                             <h2 class="text-uppercase"><span class="orange-txt">Metal</span></h2>
@@ -155,28 +113,7 @@
 
 
                 <div class="container my-5">
-                    <div class="row lb-gallery-wrapper" id="lb-otros-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="row lb-gallery-wrapper" id="lb-otros-gallery"></div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
                             <h2 class="text-uppercase"><span class="orange-txt">Otros</span></h2>
@@ -210,6 +147,49 @@
     <!-- Core site JS-->
     <script src="assets/js/components.js"></script>
     <script src="assets/js/dcp-scripts.js" async></script>
+
+    <script async defer>
+
+
+    var foldermadera = "assets/img/galeria/multimaterial/madera_mdf/";
+    $.ajax({
+        url: foldermadera,
+        success: function(datamadera) {
+            $(datamadera).find("a").attr("href", function(i, valmadera) {
+                if (valmadera.match(/\.(webp)$/)) {
+                    $("#lb-madera-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valmadera+"'><img loading='lazy' src='" + foldermadera + valmadera + "'></a></div></div>");
+                }
+            });
+        }
+    });
+
+
+        var foldermetal = "assets/img/galeria/multimaterial/metal/";
+    $.ajax({
+        url: foldermetal,
+        success: function(datametal) {
+            $(datametal).find("a").attr("href", function(i, valmetal) {
+                if (valmetal.match(/\.(webp)$/)) {
+                    $("#lb-metal-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valmetal+"'><img src='" + foldermetal + valmetal + "'></a></div></div>");
+                }
+            });
+        }
+    });
+
+
+    var folderotros = "assets/img/galeria/multimaterial/otros/";
+    $.ajax({
+        url: folderotros,
+        success: function(dataotros) {
+            $(dataotros).find("a").attr("href", function(i, valotros) {
+                if (valotros.match(/\.(webp)$/)) {
+                    $("#lb-otros-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valotros+"'><img loading='lazy' src='" + folderotros + valotros + "'></a></div></div>");
+                }
+            });
+        }
+    });
+
+    </script>
 </body>
 
 </html>

@@ -86,26 +86,6 @@
                 </div>
                 <div class="container my-5">
                     <div class="row lb-gallery-wrapper" id="lb-ecologicos-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
@@ -118,26 +98,6 @@
                 </div>
                 <div class="container my-5">
                     <div class="row lb-gallery-wrapper" id="lb-desarrollos-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
@@ -150,26 +110,6 @@
                 </div>
                 <div class="container my-5">
                     <div class="row lb-gallery-wrapper" id="lb-armado-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
@@ -180,28 +120,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="container my-5">
+                <!--<div class="container my-5">
                     <div class="row lb-gallery-wrapper" id="lb-realidada-gallery">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="thumbnail img-responsive">
-                                <a href="#" title="Image 1"><img src="https://dummyimage.com/600x400/000/fff"></a>
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-5 col-xs-12 text-center title-text">
@@ -211,7 +131,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </section>
     </div>
@@ -236,6 +156,62 @@
     <!-- Core site JS-->
     <script src="assets/js/components.js"></script>
     <script src="assets/js/dcp-scripts.js" async></script>
+
+    <script async defer>
+
+
+    var folderecolog = "assets/img/galeria/innovacion/ecologicos/";
+    $.ajax({
+        url: folderecolog,
+        success: function(dataecolog) {
+            $(dataecolog).find("a").attr("href", function(i, valecolog) {
+                if (valecolog.match(/\.(webp)$/)) {
+                    $("#lb-ecologicos-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valecolog+"'><img loading='lazy' src='" + folderecolog + valecolog + "'></a></div></div>");
+                }
+            });
+        }
+    });
+
+
+        var folderdesarrollos = "assets/img/galeria/innovacion/desarrollos/";
+    $.ajax({
+        url: folderdesarrollos,
+        success: function(datadesarr) {
+            $(datadesarr).find("a").attr("href", function(i, valdesarr) {
+                if (valdesarr.match(/\.(webp)$/)) {
+                    $("#lb-desarrollos-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valdesarr+"'><img src='" + folderdesarrollos + valdesarr + "'></a></div></div>");
+                }
+            });
+        }
+    });
+
+
+    var folderarmados = "assets/img/galeria/innovacion/facil_armado/";
+    $.ajax({
+        url: folderarmados,
+        success: function(dataarmado) {
+            $(dataarmado).find("a").attr("href", function(i, valarm) {
+                if (valarm.match(/\.(webp)$/)) {
+                    $("#lb-armado-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valarm+"'><img loading='lazy' src='" + folderarmados + valarm + "'></a></div></div>");
+                }
+            });
+        }
+    });
+
+
+
+    /*var folderrealidada = "assets/img/galeria/innovacion/realidad-a/";
+    $.ajax({
+        url: folderrealidada,
+        success: function(datarealidada) {
+            $(datarealidada).find("a").attr("href", function(i, valrealidada) {
+                if (valrealidada.match(/\.(webp)$/)) {
+                    $("#lb-realidada-gallery").append("<div class='col-lg-3 col-sm-6'><div class='thumbnail img-responsive'><a href='#' title='"+valrealidada+"'><img loading='lazy' src='" + folderrealidada + valrealidada + "'></a></div></div>");
+                }
+            });
+        }
+    });*/
+    </script>
 </body>
 
 </html>
