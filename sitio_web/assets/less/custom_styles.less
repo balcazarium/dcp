@@ -245,6 +245,31 @@ footer {
         }
     }
 
+    .thumbnail {
+        display: block;
+        width: 100%;
+        height: auto;
+
+        a {
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+                transition: transform .5s ease;
+
+                &:hover,
+                &:focus {
+                    transform: scale(1.08);
+                }
+            }
+        }
+    }
+
     #dcp-footer-wrapper {
 
         font-family: 'Lato', Arial, sans-serif;
@@ -367,10 +392,15 @@ footer {
 
     #modal-gallery {
         .thumbnail {
+            display: block;
+            width: 100%;
+            height: auto;
+
             a {
                 width: 100%;
                 display: block;
                 margin: 0px auto;
+                overflow: hidden;
 
                 img {
                     width: 100%;
@@ -566,6 +596,7 @@ footer {
                 .font-size(1.6);
             }
         }
+
         .form-control[type=file] {
             overflow: hidden;
             appearance: button;
