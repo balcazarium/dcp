@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row flex-row align-items-center justify-content-center">
                     <div class="col-lg-12 col-md-12 col-xs-12 text-center my-5">
-                        <h2><span class="orange-txt">Cuentanos que tienes en mente</span></h2>
+                        <h2><span class="orange-txt">Cuéntanos que tienes en mente</span></h2>
                         <p>y un asesor se pondra en contacto contigo o escribenos a <a href="mailto:contacto@dcp.mx">contacto@dcp.mx</a></p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             </div>
 
                             <div class="col-auto my-5">
-                                <button type="submit" class="btn-dcp btn btn-rounded btn-orange btn-sm mb-3 float-right">Enviar</button>
+                                <button  class="btn-dcp btn btn-rounded btn-orange btn-sm mb-3 float-right" onclick="contacto()">Enviar</button>
                               </div>
 
                         </form>
@@ -86,6 +86,50 @@
     <!-- Core site JS-->
     <script src="assets/js/components.js"></script>
     <script src="assets/js/dcp-scripts.js" async></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function contacto(){
+               
+               let email = document.getElementById('customer-email').value;
+               let name = document.getElementById('customer-name').value;
+               let company = document.getElementById('customer-business').value;
+               let phone = document.getElementById('customer-phone').value;
+               let comments = document.getElementById('customer-comments').value;
+               let uploaded_file = document.getElementById('uploaded_file').value;
+
+               var parametros = {
+                   "name" : name,
+                   "email" : email,
+                   "message": comments,
+                   "company":company,
+                   "pone": phone,
+                   "uploaded_file": uploaded_file
+               };
+               $.ajax({
+                       data:  parametros, 
+                       url:   'sendMail.php', 
+                       type:  'post',
+                       
+                       success:  function (response) { 
+                           Swal.fire({
+                           title: '¡Mensaje enviado!',
+                           text: 'Su mensaje ha sido enviado correctamente, en breve un asesor se pondrá en contacto con usted',
+                           icon: 'success',
+                           confirmButtonText: 'OK'
+                           });
+                       },
+                       error:function(jqXHR, status, error){
+                          
+                           Swal.fire({
+                           title: '¡Error!',
+                           text: 'Su mensaje no ha sido enviado. Intenta contactarnos directamente por teléfono o correo electrónico',
+                           icon: 'error',
+                           confirmButtonText: 'OK'
+                           });
+                       }
+               });
+           }
+    </script>
 </body>
 
 </html>
